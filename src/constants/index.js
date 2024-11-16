@@ -3,7 +3,7 @@ import project2 from "../assets/projects/doj.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/pdfai.png";
 import project5 from "../assets/projects/mechat.png";
-import payment from '../assets/projects/payment.webp';
+import payment from '../assets/projects/payment.avif';
 
 export const HERO_CONTENT = `I am a dedicated full-stack developer with a strong focus on Flutter and a comprehensive tech stack. My expertise spans front-end technologies including React.js and Flutter, and back-end technologies such as Node.js, MongoDB, and Firebase. With hands-on experience in building innovative and scalable applications, I aim to leverage my skills to deliver exceptional user experiences and drive business growth through dynamic, cutting-edge solutions.`;
 
