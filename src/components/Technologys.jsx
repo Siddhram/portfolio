@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import { RiReactjsLine } from 'react-icons/ri';     // React.js Icon
 import { SiMongodb, SiFirebase, SiFlutter, SiTypescript, SiDart } from 'react-icons/si'; // MongoDB, Firebase, Flutter, TypeScript, Dart Icons
-import { FaNodeJs } from 'react-icons/fa';  // Node.js Icon
+import { FaNodeJs, FaReact } from 'react-icons/fa';  // Node.js, React (for React Native) Icons
 import { DiJavascript1, DiJava } from 'react-icons/di'; // JavaScript, Java Icons
 import { motion } from "framer-motion";
 import genai from '../assets/genai.jpeg';  // Import GenAI image
@@ -82,6 +82,11 @@ const Technologies = () => {
         <motion.div variants={iconVariants(2.5)} initial='initial' animate="animate" className='w-32 h-32 rounded-2xl border-4 border-neutral-800 p-4 flex flex-col items-center justify-center'>
           <RiReactjsLine className='text-6xl text-cyan-400' />
           <p className='text-center text-xl mt-2'>React.js</p>
+        </motion.div>
+        {/* React Native Icon (using FaReact as a stand-in) */}
+        <motion.div variants={iconVariants(2.7)} initial='initial' animate="animate" className='w-32 h-32 rounded-2xl border-4 border-neutral-800 p-4 flex flex-col items-center justify-center'>
+          <FaReact className='text-6xl text-blue-500' />
+          <p className='text-center text-xl mt-2'>React Native</p>
         </motion.div>
         
         {/* MongoDB Icon */}

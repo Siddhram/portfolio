@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedin, FaGithub, FaDownload } from 'react-icons/fa'; // Import the download icon
 import leetcodeLogo from '../assets/leetcode.png'; // Import LeetCode logo image
 import codeforces from '../assets/codeforces.png'; // Import Codeforces logo image
-import samplePDF from '../assets/resume.docx'; // Import the PDF file
+import samplePDF from '../assets/siddharamsutar_resume_r.pdf'; // Import the PDF file
 
 const Navbar = () => {
   return (
@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className='flex items-center'>
         <a 
           href={samplePDF} 
-          download="resume.docx" 
+          download="resume.pdf" 
           rel="noopener noreferrer" 
           className="flex items-center text-white font-medium px-3 py-1.5 rounded-full hover:bg-black transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg"
         >
